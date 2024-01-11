@@ -77,6 +77,7 @@ export default defineComponent({
                 height: props.resolution.height,
                 facingMode: props.facingMode,
                 deviceId: {},
+                advanced: [{torch: true}]
             },
             audio: false,
         };
